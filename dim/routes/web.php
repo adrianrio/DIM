@@ -58,3 +58,14 @@ Route::get('/tnc', function () {
     return view('tnc', ['title' => 'Terms and Condition Page']);
 });
 
+Route::get('/campaigndetails', function () {
+    return view('campaigndetails', ['title' => 'Campaign Details Page']);
+});
+
+Route::get('/scholarship', function () {
+    return view('scholarship', ['title' => 'Scholarship Page']);
+});
+
+Route::get('/profile', function () {
+    return view('profile', ['title' => 'Profile Page']);
+});
